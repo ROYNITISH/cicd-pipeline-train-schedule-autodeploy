@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "willbla" with your own Docker Hub username
+        //be sure to replace "with your image"
         DOCKER_IMAGE_NAME = "roynitishdev/nodeapp"
     }
     stages {
